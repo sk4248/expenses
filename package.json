@@ -13,7 +13,6 @@
     "heroku-postbuild": "yarn run build:prod"
   },
   "dependencies": {
-    
     "babel-loader": "7.1.1",
     "babel-plugin-transform-class-properties": "6.24.1",
     "babel-plugin-transform-object-rest-spread": "6.23.0",
@@ -48,6 +47,7 @@
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
+    "chalk": "^2.4.2",
     "cross-env": "5.0.5",
     "dotenv": "4.0.0",
     "enzyme": "2.9.1",
